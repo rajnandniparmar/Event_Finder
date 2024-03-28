@@ -37,12 +37,12 @@ A RESTful service that provides event data based on a user's geographical locati
 ### Running the Project
 
 1. Start the server by running `node index.js` or `npm start` command.
-2. The server will start running at the specified port (default is 5000).
+2. The server will start running at the specified port (default is 2000).
 
 ### Testing the API Endpoints
 
 1. Use Postman or any REST API client to test the endpoints.
-2. Send GET requests to `/events/find` to search for events based on date, latitude, longitude, and page. Example url : 'http://localhost:5000/events/find?date=2024-03-15&latitude=40.7128&longitude=-74.0060&page=1'
+2. Send GET requests to `/events/find` to search for events based on date, latitude, longitude, and page. Example url : 'http://localhost:2000/events/find?date=2024-03-15&latitude=40.7128&longitude=-74.0060&page=1'
 3. Send POST requests to `/events/add` to add new events to the database.
 
 
